@@ -14,8 +14,15 @@ class HomePage extends StatelessWidget {
       ),
       drawer: Drawer(),
       body: Center(
-        child: Container(child: Text('my name is akshai $ak $aksh $name')),
-      ),
+          // child: Container(child: Text('my name is akshai $ak $aksh $name')),
+          child: Container(
+              child: Text(
+        'Homepage',
+        style: TextStyle(
+          fontSize: 25,
+          fontWeight: FontWeight.bold,
+        ),
+      ))),
     );
   }
 }
