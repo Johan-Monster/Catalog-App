@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:intro/widgets/drawer.dart';
 
 class HomePage extends StatelessWidget {
   final int ak = 23;
@@ -12,7 +13,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text("JEE NOTES APP"),
       ),
-      drawer: Drawer(),
+      drawer: MyDrawer(),
       body: Center(
           // child: Container(child: Text('my name is akshai $ak $aksh $name')),
           child: Container(
